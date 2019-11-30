@@ -19,161 +19,458 @@
   <body>
     <main class="hero">
       <header class="site-header">
-        <h1 class="site-header__heading">My Contacts</h1>
+        <h1 class="site-header__heading">Organic Veggies</h1>
       </header>
-      <form class="search-form" autocomplete="off">
-        <label class="search-form__label" for="filterInput"
-          >Search names:</label
-        >
-        <input
-          class="search-form__input"
-          id="filterInput"
-          placeholder="I.e. Damian"
-          type="text"
-        />
-      </form>
-      <ul class="contacts">
-        <li class="border-bottom">
-          <ul class="letter-group">
-            <li class="letter-group__letter">A</li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Adam</a>
-            </li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Andrew</a>
-            </li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Alan</a>
-            </li>
-          </ul>
-        </li>
-        <li class="border-bottom">
-          <ul class="letter-group">
-            <li class="letter-group__letter">B</li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Brandon</a>
-            </li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Bella</a>
-            </li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Bianca</a>
-            </li>
-          </ul>
-        </li>
-        <li class="border-bottom">
-          <ul class="letter-group">
-            <li class="letter-group__letter">C</li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Cooper</a>
-            </li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Camden</a>
-            </li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Caleb</a>
-            </li>
-          </ul>
-        </li>
-        <li class="border-bottom">
-          <ul class="letter-group">
-            <li class="letter-group__letter">D</li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Daniel</a>
-            </li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">David</a>
-            </li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Damian</a>
-            </li>
-          </ul>
-        </li>
-        <li class="border-bottom">
-          <ul class="letter-group">
-            <li class="letter-group__letter">E</li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Ezra</a>
-            </li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Elijah</a>
-            </li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Elias</a>
-            </li>
-          </ul>
-        </li>
-        <li class="border-bottom">
-          <ul class="letter-group">
-            <li class="letter-group__letter">F</li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Fabia</a>
-            </li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Fae</a>
-            </li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Fabrizia</a>
-            </li>
-          </ul>
-        </li>
-        <li class="border-bottom">
-          <ul class="letter-group">
-            <li class="letter-group__letter">G</li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Grace</a>
-            </li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Georgia</a>
-            </li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Giselle</a>
-            </li>
-          </ul>
-        </li>
-        <li class="border-bottom">
-          <ul class="letter-group">
-            <li class="letter-group__letter">H</li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Harper</a>
-            </li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Henry</a>
-            </li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Hector</a>
-            </li>
-          </ul>
-        </li>
-        <li class="border-bottom">
-          <ul class="letter-group">
-            <li class="letter-group__letter">I</li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Ivy</a>
-            </li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Isabelle</a>
-            </li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Irene</a>
-            </li>
-          </ul>
-        </li>
-        <li class="border-bottom">
-          <ul class="letter-group">
-            <li class="letter-group__letter">J</li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Jacob</a>
-            </li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Jackson</a>
-            </li>
-            <li class="letter-group__name">
-              <a href="mailto:damian.webdev@gmail.com">Joseph</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div class="row">
+
+        <!-- Column 1  -->
+        <div class="column"><form class="search-form" autocomplete="off">
+          <label class="search-form__label" for="filterInput"
+            >Search :</label
+          >
+          <input
+            class="search-form__input"
+            id="filterInput"
+            placeholder="I.e. Damian"
+            type="text"
+          />
+        </form>
+        <ul class="contacts">
+          <li class="border-bottom">
+            <ul class="letter-group">
+              <li class="letter-group__letter">Green</li>
+              <li class="letter-group__name">
+                <a href="#">aparagus</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">avocado</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">bok choy</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">broccoli</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">brussels sprouts</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">cauliflower</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">celery</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">cucumber</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">fennel</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">olives</a>
+              </li>
+  
+            </ul>
+          </li>
+          <li class="border-bottom">
+            <ul class="letter-group">
+              <li class="letter-group__letter">Light Green</li>
+              <li class="letter-group__name">
+                <a href="#">cabbage</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">collards</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">kale</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">lettuce</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">radishes</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">spinach</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">summer squash</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">zucchini</a>
+              </li>
+            </ul>
+          </li>
+          <li class="border-bottom">
+            <ul class="letter-group">
+              <li class="letter-group__letter">Yellow Green</li>
+              <li class="letter-group__name">
+                <a href="#">artichokes</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">butternut</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">winter squash</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">carrots</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">green beans</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">green onion</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">leeks</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">parsley</a>
+              </li>
+            </ul>
+          </li>
+          <li class="border-bottom">
+            <ul class="letter-group">
+              <li class="letter-group__letter">Yellow</li>
+              <li class="letter-group__name">
+                <a href="#">eggplant</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">onion</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">peas</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">peppers</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">shallots</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">tomatoes</a>
+              </li>
+            </ul>
+          </li>
+          <li class="border-bottom">
+            <ul class="letter-group">
+              <li class="letter-group__letter">Yellow-orange</li>
+              <li class="letter-group__name">
+                <a href="#">beets</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">mushrooms</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">pumpkin</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">raw chard</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">raw collards</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">raw kale</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">raw
+                  spinach</a>
+              </li>
+            </ul>
+          </li>
+          <li class="border-bottom">
+            <ul class="letter-group">
+              <li class="letter-group__letter">Orange</li>
+              <li class="letter-group__name">
+                <a href="#">corn (fresh on the cob)</a>
+              </li>
+              
+            </ul>
+          </li>
+          <li class="border-bottom">
+            <ul class="letter-group">
+              <li class="letter-group__letter">Red</li>
+              <li class="letter-group__name">
+                <a href="#">all other corn except fresh</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">canned veggies</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">soy</a>
+              </li>
+            </ul>
+          </li>
+          <li class="border-bottom">
+            <ul class="letter-group">
+              <li class="letter-group__letter">H</li>
+              <li class="letter-group__name">
+                <a href="#">Harper</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">Henry</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">Hector</a>
+              </li>
+            </ul>
+          </li>
+          <li class="border-bottom">
+            <ul class="letter-group">
+              <li class="letter-group__letter">I</li>
+              <li class="letter-group__name">
+                <a href="#">Ivy</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">Isabelle</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">Irene</a>
+              </li>
+            </ul>
+          </li>
+          <li class="border-bottom">
+            <ul class="letter-group">
+              <li class="letter-group__letter">J</li>
+              <li class="letter-group__name">
+                <a href="#">Jacob</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">Jackson</a>
+              </li>
+              <li class="letter-group__name">
+                <a href="#">Joseph</a>
+              </li>
+            </ul>
+          </li>
+        </ul></div>
+        <!-- Column 2 -->
+        <div class="column"><form class="search-form-two" autocomplete="off">
+          <label class="search-form__label-two" for="filterInput-two"
+            >Search  :</label
+          >
+          <input
+            class="search-form__input-two"
+            id="filterInput-two"
+            placeholder="I.e. Corn"
+            type="text"
+          />
+        </form>
+        <ul class="veg-two">
+          <li class="border-bottom">
+            <ul class="letter-group">
+              <li class="letter-group__letter">Green</li>
+              <li class="vegtable">
+                <a href="#">aparagus</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">avocado</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">bok choy</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">broccoli</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">brussels sprouts</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">cauliflower</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">celery</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">cucumber</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">fennel</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">olives</a>
+              </li>
+  
+            </ul>
+          </li>
+          <li class="border-bottom">
+            <ul class="letter-group">
+              <li class="letter-group__letter">Light Green</li>
+              <li class="vegtable">
+                <a href="#">cabbage</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">collards</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">kale</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">lettuce</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">radishes</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">spinach</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">summer squash</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">zucchini</a>
+              </li>
+            </ul>
+          </li>
+          <li class="border-bottom">
+            <ul class="letter-group">
+              <li class="letter-group__letter">Yellow Green</li>
+              <li class="vegtable">
+                <a href="#">artichokes</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">butternut</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">winter squash</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">carrots</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">green beans</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">green onion</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">leeks</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">parsley</a>
+              </li>
+            </ul>
+          </li>
+          <li class="border-bottom">
+            <ul class="letter-group">
+              <li class="letter-group__letter">Yellow</li>
+              <li class="vegtable">
+                <a href="#">eggplant</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">onion</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">peas</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">peppers</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">shallots</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">tomatoes</a>
+              </li>
+            </ul>
+          </li>
+          <li class="border-bottom">
+            <ul class="letter-group">
+              <li class="letter-group__letter">Yellow-orange</li>
+              <li class="vegtable">
+                <a href="#">beets</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">mushrooms</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">pumpkin</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">raw chard</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">raw collards</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">raw kale</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">raw
+                  spinach</a>
+              </li>
+            </ul>
+          </li>
+          <li class="border-bottom">
+            <ul class="letter-group">
+              <li class="letter-group__letter">Orange</li>
+              <li class="vegtable">
+                <a href="#">corn (fresh on the cob)</a>
+              </li>
+              
+            </ul>
+          </li>
+          <li class="border-bottom">
+            <ul class="letter-group">
+              <li class="letter-group__letter">Red</li>
+              <li class="vegtable">
+                <a href="#">all other corn except fresh</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">canned veggies</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">soy</a>
+              </li>
+            </ul>
+          </li>
+          <li class="border-bottom">
+            <ul class="letter-group">
+              <li class="letter-group__letter">H</li>
+              <li class="vegtable">
+                <a href="#">Harper</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">Henry</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">Hector</a>
+              </li>
+            </ul>
+          </li>
+          <li class="border-bottom">
+            <ul class="letter-group">
+              <li class="letter-group__letter">I</li>
+              <li class="vegtable">
+                <a href="#">Ivy</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">Isabelle</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">Irene</a>
+              </li>
+            </ul>
+          </li>
+          <li class="border-bottom">
+            <ul class="letter-group">
+              <li class="letter-group__letter">J</li>
+              <li class="vegtable">
+                <a href="#">Jacob</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">Jackson</a>
+              </li>
+              <li class="vegtable">
+                <a href="#">Joseph</a>
+              </li>
+            </ul>
+          </li>
+        </ul></div>
+      </div>
+      
     </main>
     <script src="main.js"></script>
   </body>
