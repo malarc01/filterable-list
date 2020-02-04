@@ -11,12 +11,12 @@
 
 .row {
 	display: flex;
-	background-color: pink;
+	background-color: red;
 }
 
 .column {
 	flex: 50%;
-	background-color: lightsalmon;
+	background-color: white;
 }
 @media screen and (max-width: 600px) {
 	.column {

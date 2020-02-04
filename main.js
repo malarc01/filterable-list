@@ -41,3 +41,9 @@ filterInputTwo.addEventListener('keyup', filterVegtable);
 formTwo.addEventListener('submit', function(e) {
 	e.preventDefault();
 });
+
+function colorBg() {
+	var selectedId = document.getElementById('selectid');
+	var bgColor = selectedId.options[selectedId.selectedIndex].value;
+	document.body.style.backgroundColor = bgColor;
+}
