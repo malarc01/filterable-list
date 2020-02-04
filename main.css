@@ -106,6 +106,7 @@ html {
 
 .letter-group .letter-group__name {
 	padding-left: 2rem;
+	background: antiquewhite;
 }
 
 .letter-group__name a,
@@ -119,12 +120,14 @@ html {
 	font-size: 1.65rem;
 	transition: 0.1s ease-in-out;
 	/* border: 4px solid #ff7f7f; */
+	/* background: black; */
 }
 
 .letter-group__name a:hover,
 .letter-group__name a:focus {
 	text-decoration: underline;
 	transform: scale(1.05);
+	/* background: black; */
 }
 
 .hide {
@@ -149,6 +152,7 @@ html {
 	background: red;
 }
 
+/* Palette of colors for each section-heading */
 #green-group {
 	background: green;
 }
