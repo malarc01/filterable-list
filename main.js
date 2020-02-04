@@ -17,6 +17,8 @@ filterInput.addEventListener('keyup', filterName);
 form.addEventListener('submit', function(e) {
 	e.preventDefault();
 });
+
+// This is for the second comparsion column
 // search column two
 const filterInputTwo = document.querySelector('#filterInput-two');
 const allVegtables = [ ...document.querySelectorAll('.vegtable a') ];
