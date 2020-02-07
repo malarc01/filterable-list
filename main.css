@@ -18,6 +18,7 @@
 	flex: 50%;
 	background-color: white;
 }
+
 @media screen and (max-width: 600px) {
 	.column {
 		width: 100%;
@@ -58,7 +59,7 @@ html {
 .search-form-two {
 	width: 80%;
 	margin-bottom: 2.5rem;
-	border: 3px dotted red;
+	/* border: 3px dotted red; */
 }
 
 /* search from input for column one */
@@ -96,7 +97,7 @@ html {
 	padding: 0.3rem;
 	transition: transform 0.1s ease-in-out;
 	border-bottom: 2px solid orangered;
-	border: 3px dotted yellowgreen;
+	/* border: 3px dotted yellowgreen; */
 }
 
 .search-form__input-two:focus {
@@ -130,11 +131,20 @@ html {
 	border: 3px dotted pink;
 }
 
+/* for column 1 */
 .contacts {
 	width: 80%;
 	padding: 2rem 1rem;
 	list-style: none;
 	/* border: 3px dotted yellowgreen; */
+}
+
+/* for column 2 */
+.veg-two {
+	width: 80%;
+	padding: 2rem 1rem;
+	list-style: none;
+	/* background: purple; */
 }
 
 .letter-group {
@@ -144,6 +154,7 @@ html {
 
 .border-bottom:not(:last-child) {
 	border-bottom: 1px solid #888;
+	/* border-bottom: 10px solid lime; */
 	/* border-bottom: 1px solid red; */
 }
 
@@ -153,6 +164,12 @@ html {
 }
 
 .letter-group .letter-group__name {
+	padding-left: 2rem;
+	/* background: antiquewhite; */
+	/* border: 2px solid limegreen; */
+}
+
+.letter-group .item {
 	padding-left: 2rem;
 	/* background: antiquewhite; */
 	/* border: 2px solid limegreen; */
@@ -188,8 +205,16 @@ html {
 	/* background: black; */
 }
 
+/* for column 1 */
 .letter-group__name a:hover,
 .letter-group__name a:focus {
+	text-decoration: underline;
+	transform: scale(1.05);
+	/* background: black; */
+}
+/* for column 2 */
+.item a:hover,
+.item a:focus {
 	text-decoration: underline;
 	transform: scale(1.05);
 	/* background: black; */
