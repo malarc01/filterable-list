@@ -26,7 +26,7 @@
 html {
 	box-sizing: border-box;
 	font-family: "Lato", sans-serif;
-	color: #888;
+	/* color: #888; */
 }
 
 .hero {
@@ -40,19 +40,28 @@ html {
 	padding: 1rem 0;
 	margin-bottom: 1rem;
 	text-align: center;
-	border: 3px dotted yellowgreen;
+	/* border: 3px dotted yellowgreen; */
 }
 
 .site-header__heading {
 	font-weight: 300;
 	font-size: 4rem;
 }
-
+/* for column one */
 .search-form {
 	width: 80%;
 	margin-bottom: 2.5rem;
-	border: 3px dotted yellowgreen;
+	/* border: 3px dotted yellowgreen; */
 }
+
+/* for column two */
+.search-form-two {
+	width: 80%;
+	margin-bottom: 2.5rem;
+	border: 3px dotted red;
+}
+
+/* search from input for column one */
 
 .search-form__input {
 	border: none;
@@ -62,7 +71,7 @@ html {
 	padding: 0.3rem;
 	transition: transform 0.1s ease-in-out;
 	border-bottom: 2px solid orangered;
-	border: 3px dotted yellowgreen;
+	/* border: 3px dotted yellowgreen; */
 }
 
 .search-form__input:focus {
@@ -73,7 +82,34 @@ html {
 
 .search-form__input::placeholder {
 	color: #aaa;
-	border: 3px dotted grey;
+	/* border: 3px dotted grey; */
+}
+/*  */
+/* search from input for column two */
+/*  */
+
+.search-form__input-two {
+	border: none;
+	outline: none;
+	font-size: 1.2rem;
+	width: 100%;
+	padding: 0.3rem;
+	transition: transform 0.1s ease-in-out;
+	border-bottom: 2px solid orangered;
+	border: 3px dotted yellowgreen;
+}
+
+.search-form__input-two:focus {
+	transform: scale(1.02);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+	border: 3px dotted purple;
+	background: #ffcc00;
+}
+
+.search-form__input-two::placeholder {
+	color: #aaa;
+	/* background: red; */
+	/* border: 3px dotted grey; */
 }
 
 .search-form__label {
@@ -83,11 +119,22 @@ html {
 	color: #666;
 	border: 3px dotted pink;
 }
+
+/* for search from column two */
+
+.search-form__label-two {
+	font-size: 1.2rem;
+	display: block;
+	padding: 0.5rem 0;
+	color: #666;
+	border: 3px dotted pink;
+}
+
 .contacts {
 	width: 80%;
 	padding: 2rem 1rem;
 	list-style: none;
-	border: 3px dotted yellowgreen;
+	/* border: 3px dotted yellowgreen; */
 }
 
 .letter-group {
@@ -97,6 +144,7 @@ html {
 
 .border-bottom:not(:last-child) {
 	border-bottom: 1px solid #888;
+	/* border-bottom: 1px solid red; */
 }
 
 .letter-group .letter-group__letter {
@@ -106,13 +154,30 @@ html {
 
 .letter-group .letter-group__name {
 	padding-left: 2rem;
-	background: antiquewhite;
+	/* background: antiquewhite; */
+	/* border: 2px solid limegreen; */
 }
 
 .letter-group__name a,
 .letter-group__name a:visited,
 .letter-group__name a:link {
-	color: #0b650b;
+	color: antiquewhite;
+	font-weight: 900;
+	display: inline-block;
+	padding: 0.5rem 0;
+	text-decoration: none;
+	font-size: 1.65rem;
+	transition: 0.1s ease-in-out;
+	/* border: 4px solid #ff7f7f; */
+	/* background: black; */
+}
+
+/* column 2 font size + hyperlink */
+
+.item a,
+.item a:visited,
+.item a:link {
+	color: whitesmoke;
 	font-weight: 900;
 	display: inline-block;
 	padding: 0.5rem 0;

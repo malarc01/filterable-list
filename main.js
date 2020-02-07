@@ -21,7 +21,7 @@ form.addEventListener('submit', function(e) {
 // This is for the second comparsion column
 // search column two
 const filterInputTwo = document.querySelector('#filterInput-two');
-const allVegtables = [ ...document.querySelectorAll('.vegtable a') ];
+const allVegtables = [ ...document.querySelectorAll('.item a') ];
 
 const formTwo = document.querySelector('.search-form-two');
 
